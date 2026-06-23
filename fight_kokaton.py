@@ -141,6 +141,7 @@ class Bomb:
         self.rct.move_ip(self.vx, self.vy)
         screen.blit(self.img, self.rct)
 
+##   issue1改行
 class Score:
     """
     打ち落とした爆弾の数をスコアとして表示するクラス
